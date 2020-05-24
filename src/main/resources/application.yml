@@ -1,0 +1,32 @@
+app:
+  customer:
+    jpa:
+      properties:
+        hibernate:
+          dialect: org.hibernate.dialect.MySQL8Dialect
+          physical_naming_strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
+          show_sql: true
+          format_sql: true
+          default_batch_fetch_size: 500
+#spring:
+#  profiles:
+#    active: prod
+#  datasource:
+#    url: jdbc:mysql://192.168.99.100:3306/admin?serverTimezone=UTC&useLegacyDatetimeCode=false&autoReconnect=true&useUnicode=true&characterEncoding=utf-8
+#    username: root
+#    password: password
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#  jpa:
+#    hibernate:
+#    properties:
+#      hibernate:
+#        dialect : org.hibernate.dialect.MySQL8Dialect
+#        show_sql: true
+#        format_sql: true
+#        default_batch_fetch_size : 500
+#        jdbc:
+#          time_zone: UTC
+#    database: mysql
+
+
+
